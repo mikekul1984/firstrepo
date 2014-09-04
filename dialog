@@ -1,0 +1,4 @@
+#!/bin/sh
+
+dialog --msgbox "Helllo" 9 18
+exit 0

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+sample="global"
+
+foo() {
+	local sample="local"
+	echo "func is executing"
+	echo $sample
+}
+
+echo "script starting"
+echo $sample
+foo
+echo "script ended"
+echo $sample
+
+exit 0

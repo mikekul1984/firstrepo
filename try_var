@@ -1,0 +1,9 @@
+#!/bin/sh
+salutation="Hello"
+echo $salutation
+echo "rrer $0"
+echo "fdfd $2"
+echo "ewewe $1"
+echo "$*"
+echo $HOME
+exit 0

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Morning?"
+read timeofday
+
+if [ "$timeofday" = "yes" ]
+then
+	echo "Good morning"
+else
+	echo "Good afternoon"
+fi
+
+exit 0  

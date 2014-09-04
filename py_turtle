@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+import turtle
+import time
+#set file name
+fname="dial.eps"
+
+for x in range(0,72):
+    turtle.left(5)
+    for n in range(04):
+        turtle.forward(150)
+        turtle.left(90)
+
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file=fname)
+
+print "Save to: ", fname
+print "finish. Click to exit"
+
+turtle.exitonclick()
