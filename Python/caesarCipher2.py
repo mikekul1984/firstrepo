@@ -1,6 +1,5 @@
 # Caesar Cipher
 # http://inventwithpython.com/hacking (BSD Licensed)
-
 # every possible symbol that can be encrypted
 LETTERS = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
 
@@ -23,8 +22,6 @@ def getKey():
 
 # tells the program to encrypt or decrypt
 mode = 'encrypt' # set to 'encrypt' or 'decrypt'
-
-
 
 # stores the encrypted/decrypted form of the message
 translated = ''
